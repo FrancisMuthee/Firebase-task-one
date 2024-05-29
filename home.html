@@ -14,6 +14,40 @@
     
     <ul id="task-list"></ul>
 
+    <div class="test">
+        <button><a href="index1.html">Events</button></a>
+    </div>
+
+
+    <div class="information">
+            <div class="form">
+                <form action="https://api.web3forms.com/submit" method="POST" id="form" class="needs-validation" novalidate>
+                    <input type="hidden" name="access_key" value="b3dd120b-9bad-45e7-a04a-e2975964155d" />
+                    <input
+                    type="hidden"
+                    name="subject"
+                    value="New Submission from Web3Forms"
+                    />
+                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+                    <input type="hidden" name="access_key" value=" b3dd120b-9bad-45e7-a04a-e2975964155d">
+                    <h2>Message Us</h2>
+                    <p>Name:</p>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <p>Email:</p>
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                    <p>Phone Number:</p>
+                    <input type="text" id="phone" name="text" placeholder="Phone number" required>
+                    <p>Message:</p>
+                    <textarea id="message" name="message" rows="4" placeholder="message"></textarea>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <button type="submit">SUBMIT</button>
+
+                     <p class="text-base text-center text-gray-400" id="result"></p>
+                </form>
+            </div>
+            
+        </div>
 
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
