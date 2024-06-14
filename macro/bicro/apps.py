@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class SubtleConfig(AppConfig):
+class BicroConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'subtle'
+    name = 'bicro'
