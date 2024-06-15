@@ -20,8 +20,8 @@ from bicro.views import home
 from reality.views import my_email_template_view
 
 urlpatterns = [
-    path('', include('bicro.urls')),
     path('', include('reality.urls')),
+    path('', include('bicro.urls')),
     path('admin/', admin.site.urls),
     
     

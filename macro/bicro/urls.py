@@ -1,10 +1,9 @@
 from django.urls import path
 from . import views
 
-app_name='bicro'
+
 urlpatterns = [
-    path('', views.home, name='home'),
- 
+    path("", views.index, name="index"),
     # ex: /polls/5/
     path("<int:question_id>/", views.detail, name="detail"),
     # ex: /polls/5/results/
